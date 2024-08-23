@@ -3,6 +3,8 @@ package org.example;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.hibernate.relational.SchemaManager;
+
 import static java.lang.Boolean.TRUE;
 import static org.hibernate.cfg.JdbcSettings.*;
 
@@ -24,5 +26,6 @@ public class Database {
         return sessionFactory;
 
     }
+
 
 }
